@@ -1,0 +1,19 @@
+This program generates the required files along with the code to 
+develop either Console apps or Win32 apps as specified
+
+Below are the following arguments you can use with this program
+
+-help : Displays this help message
+Ex. cpp_generate.exe -help
+
+-win32 : Generates code for Win32 apps
+Ex. cpp_generate.exe -win32
+
+-con : Generates code for Console apps
+Ex. cpp_generate.exe -con
+
+    --y-mh : Specifies the program to create a \"main.h\" file (only works when -con is specified)
+    Ex. cpp_generate.exe -con --y-mh
+    
+    --n-mh : Does not create a \"main.h\" file (default option)
+    Ex. cpp_generate.exe -con --n-mh
